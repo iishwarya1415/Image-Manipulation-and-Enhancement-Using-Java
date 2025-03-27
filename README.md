@@ -36,3 +36,50 @@ Users can load images in formats such as PNG, JPG, etc., apply a series of trans
 - **Controller**: Bridges user actions with model operations.
 
 ### Packages:
+- Controller
+- Model
+- View
+- Utils
+
+  
+Each component follows the **Single Responsibility Principle**, making it easy to maintain and expand.
+
+---
+
+## ✨ Features
+
+### ✅ Common (GUI & CLI)
+- Load and save images
+- Apply blur, sharpen, sepia, and color-correction filters
+- Extract red, green, blue, luma, and value channels
+- Resize image (downscaling)
+- Compress image using lossy compression
+- Generate image histograms
+- Adjust brightness and contrast levels
+
+### 🖼️ GUI-Only
+- Manual resizing via input fields
+- Preview before/after effects in real time
+
+### 💻 CLI-Only
+- Intensity component extraction
+- RGB channel split and combine
+- Brightness adjustments using numerical input
+- Split view rendering of effects
+
+---
+
+## 🔧 How to Run
+
+### 🟢 Run via IntelliJ / Any Java IDE
+1. Open `Main.java`
+2. Run the application
+3. GUI will launch; use "Load" to import an image
+4. Apply filters or transformations
+5. Use "Save" to export the image
+
+### 🟡 Run via JAR
+
+To launch GUI:
+```bash
+java -jar Program.jar
